@@ -14,4 +14,27 @@ html {
   font-size: 62.5%;
 }
 
+.header {
+  background-color: #9b14f5;
+  color: #201a23;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.header__brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.header__brand-text {
+  color: rgba(32, 26, 35, 0.7);
+  font-size: 5.6rem;
+  text-transform: uppercase;
+}
+.header__brand-logo {
+  width: 7rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

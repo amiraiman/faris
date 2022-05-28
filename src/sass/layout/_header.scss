@@ -1,0 +1,25 @@
+.header {
+  background-color: $color-primary-light;
+  color: $color-dark;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+
+    &-text {
+      color: rgba($color-dark, 0.7);
+      font-size: 5.6rem;
+      text-transform: uppercase;
+    }
+
+    &-logo {
+      width: 7rem;
+    }
+  }
+}
