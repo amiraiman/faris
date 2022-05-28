@@ -7,3 +7,18 @@
 ul {
   list-style: none;
 }
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: $color-dark;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+a:hover,
+a:active {
+  border-bottom: 1px solid $color-dark;
+  cursor: pointer;
+  color: #000;
+}

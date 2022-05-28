@@ -9,14 +9,29 @@ ul {
   list-style: none;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #201a23;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+a:hover,
+a:active {
+  border-bottom: 1px solid #201a23;
+  cursor: pointer;
+  color: #000;
+}
+
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 62.5%;
 }
 
 .header {
-  background-color: #9b14f5;
-  color: #201a23;
+  background-color: #7209b7;
+  color: #fbfbfb;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,8 +44,8 @@ html {
   gap: 2.4rem;
 }
 .header__brand-text {
-  color: rgba(32, 26, 35, 0.7);
   font-size: 5.6rem;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .header__brand-logo {
@@ -41,7 +56,14 @@ html {
   gap: 2.4rem;
   align-items: center;
   justify-content: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.header__nav-link:link, .header__nav-link:visited {
+  color: #fbfbfb;
+}
+.header__nav-link:active, .header__nav-link:hover {
+  border-bottom: 1px solid #fbfbfb;
 }
 
 /*# sourceMappingURL=styles.css.map */
