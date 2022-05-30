@@ -1,0 +1,14 @@
+.container {
+  max-width: 116rem;
+  margin: 0 auto;
+
+  &-lg {
+    max-width: 136rem;
+    margin: 0 auto;
+  }
+
+  &-sm {
+    max-width: 96rem;
+    margin: 0 auto;
+  }
+}

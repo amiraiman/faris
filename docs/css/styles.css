@@ -29,13 +29,28 @@ html {
   font-size: 62.5%;
 }
 
+.container {
+  max-width: 116rem;
+  margin: 0 auto;
+}
+.container-lg {
+  max-width: 136rem;
+  margin: 0 auto;
+}
+.container-sm {
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
 .header {
   background-color: #7209b7;
+  padding: 1rem 2rem;
   color: #fbfbfb;
+}
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
 }
 .header__brand {
   display: flex;

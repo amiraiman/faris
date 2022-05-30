@@ -1,10 +1,13 @@
 .header {
   background-color: $color-primary;
-  color: $color-white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 1rem 2rem;
+  color: $color-white;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   &__brand {
     display: flex;
