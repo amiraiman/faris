@@ -5,6 +5,10 @@
     <title>Bookku</title>
     <meta name="description" content="Exchange used books hub" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/bb00defd30.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -30,6 +34,49 @@
         </nav>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="section section-search">
+        <div class="container">
+          <form class="search" method="GET" action="/search">
+            <div class="search__bar">
+              <label class="search__bar--label" for="query">
+                <i class="search__icon fa-solid fa-search"></i>
+              </label>
+              <input
+                type="text"
+                id="query"
+                name="q"
+                placeholder="Search available listings"
+                class="search__bar--input"
+                required
+              />
+            </div>
+            <div class="search__dropdown">
+              <label class="search__dropdown--label" for="sort">
+                <i class="search__icon fa-solid fa-sort"></i>
+              </label>
+              <select
+                id="sort"
+                name="sort"
+                class="search__dropdown--select"
+                required
+              >
+                <option
+                  class="search__dropdown--options"
+                  value=""
+                  disabled
+                  selected
+                  hidden
+                >
+                  Sort By
+                </option>
+                <option class="search__dropdown--options" value="">Year</option>
+                <option class="search__dropdown--options" value="">Name</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
