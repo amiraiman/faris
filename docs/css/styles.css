@@ -98,6 +98,26 @@ html {
   outline: none;
 }
 
+.btn {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 1px solid currentColor;
+  border-radius: 20rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.btn--primary {
+  background-color: #7209b7;
+  color: #fff;
+}
+.btn--primary:hover {
+  background-color: rgba(114, 9, 183, 0.9);
+}
+.btn:hover {
+  cursor: pointer;
+}
+
 .header {
   background-color: #7209b7;
   padding: 1rem 2rem;

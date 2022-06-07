@@ -1,0 +1,22 @@
+.btn {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 1px solid currentColor;
+  border-radius: 20rem;
+  font-size: 2rem;
+  font-weight: 600;
+
+  &--primary {
+    background-color: $color-primary;
+    color: #fff;
+
+    &:hover {
+      background-color: rgba($color-primary, 0.9);
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
