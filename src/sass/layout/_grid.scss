@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  grid-row-gap: 4.8rem;
+  grid-column-gap: 9.6rem;
+
+  &-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
