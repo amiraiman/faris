@@ -3,7 +3,6 @@
   padding: 1rem 2rem;
   background-color: transparent;
   border: 1px solid currentColor;
-  border-radius: 20rem;
   font-size: 2rem;
   font-weight: 600;
 
@@ -18,5 +17,9 @@
 
   &:hover {
     cursor: pointer;
+  }
+
+  &--round {
+    border-radius: 20rem;
   }
 }
