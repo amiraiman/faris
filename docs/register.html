@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bookku</title>
+    <meta name="description" content="Exchange used books hub" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/bb00defd30.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-lg header__container">
+        <div class="header__brand">
+          <h1 class="header__brand-text">Bookku</h1>
+          <img
+            class="header__brand-logo"
+            src="assets/logo.png"
+            alt="A picture of an open book"
+          />
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-links">
+            <li><a class="header__nav-link" href="#">Home</a></li>
+            <li><a class="header__nav-link" href="#">Category</a></li>
+            <li><a class="header__nav-link" href="#">Listings</a></li>
+            <li><a class="header__nav-link" href="#">Sign Up</a></li>
+            <li><a class="header__nav-link" href="#">Sign In</a></li>
+            <li><a class="header__nav-link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section section-form">
+        <div class="container">
+          <div class="card card--primary-dark width-50 mx-auto">
+            <h2 class="section-header text-center">Register</h2>
+            <form action="/login" method="POST" class="form">
+              <div class="form__group">
+                <label for="username" class="form__label">Username</label>
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  class="form__input"
+                  required
+                />
+              </div>
+              <div class="form__group">
+                <label for="password" class="form__label">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="form__input"
+                  required
+                />
+              </div>
+              <input type="submit" class="btn btn--primary" value="Sign In" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
