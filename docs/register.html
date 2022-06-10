@@ -41,6 +41,26 @@
             <h2 class="section-header text-center">Register</h2>
             <form action="/login" method="POST" class="form">
               <div class="form__group">
+                <label for="fullname" class="form__label">Full Name</label>
+                <input
+                  type="text"
+                  id="fullname"
+                  name="fullname"
+                  class="form__input"
+                  required
+                />
+              </div>
+              <div class="form__group">
+                <label for="email" class="form__label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form__input"
+                  required
+                />
+              </div>
+              <div class="form__group">
                 <label for="username" class="form__label">Username</label>
                 <input
                   type="text"
@@ -60,7 +80,19 @@
                   required
                 />
               </div>
-              <input type="submit" class="btn btn--primary" value="Sign In" />
+              <div class="form__group">
+                <label for="confirmpassword" class="form__label"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  id="confirmpassword"
+                  name="confirmpassword"
+                  class="form__input"
+                  required
+                />
+              </div>
+              <input type="submit" class="btn btn--primary" value="Sign Up" />
             </form>
           </div>
         </div>
