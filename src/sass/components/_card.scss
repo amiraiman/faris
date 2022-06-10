@@ -1,0 +1,17 @@
+.card {
+  text-align: center;
+  box-shadow: 0 0 0.2rem 0.2rem rgba($color-dark, 0.2);
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+
+  &--primary-dark {
+    background-color: $color-primary-dark;
+    color: $color-white;
+  }
+
+  &--primary {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+}
