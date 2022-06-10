@@ -1,6 +1,5 @@
 .card {
-  text-align: center;
-  box-shadow: 0 0 0.2rem 0.2rem rgba($color-dark, 0.2);
+  box-shadow: $box-shadow-light;
   padding: 1rem 2rem;
   border: 1px solid transparent;
   border-radius: 1rem;

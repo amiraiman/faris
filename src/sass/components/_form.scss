@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.4rem;
+  padding: 2rem 0;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 1.6rem;
+  }
+
+  &__input {
+    padding: 0.5rem 1rem;
+    font-size: $font-size-default;
+    border: 1px solid transparent;
+    border-radius: $border-radius-small;
+    outline: none;
+  }
+
+  &__label {
+    font-size: $font-size-default;
+  }
+}
