@@ -13,7 +13,15 @@ $color-grey-dark: #444;
 
 $color-white: #fbfbfb;
 $color-dark: #201a23;
+
 // Fonts
 $font-size-default: 1.6rem;
 
 // Line-height
+
+// Border
+$border-radius-small: 0.9rem;
+
+// Box shadow:
+$outline-shadow: 0 0 0.2rem 0.2rem rgba($color-secondary-light, 0.9);
+$box-shadow-light: 0 0 0.2rem 0.2rem rgba($color-dark, 0.2);
