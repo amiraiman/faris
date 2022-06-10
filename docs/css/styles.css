@@ -221,6 +221,7 @@ html {
   border: 1px solid transparent;
   font-size: 2rem;
   font-weight: 600;
+  transition: all 0.2s;
 }
 .btn--primary {
   background-color: #7209b7;
